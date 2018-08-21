@@ -1,5 +1,23 @@
+@import '../node_modules/normalize.css/normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Lobster|Source+Code+Pro:400,500');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  min-height: 100%;
+  height: 100%;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 500;
+}
+
+#root {
+  height: 100%;
 }
