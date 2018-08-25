@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import bitpoll from './assets/bitpoll.png';
+import monikers from './assets/monikers.png';
+
+library.add(fab);
 
 class App extends Component {
   render() {
@@ -11,17 +18,87 @@ class App extends Component {
               <h1>hmm... Chase</h1>
             </div>
             <h2>Front-end web developer</h2>
+            <div className="skill-container">
+              <div className="curly-open" />
+              <div className="skills">
+                <span className="skill">JavaScript</span>
+                <span className="skill">jQuery</span>
+                <span className="skill">HTML</span>
+                <span className="skill">CSS/SCSS</span>
+                <span className="skill">Git</span>
+                <span className="skill">React</span>
+                <span className="skill">Router</span>
+                <span className="skill">Redux</span>
+                <span className="skill">Express</span>
+                <span className="skill">Postgres</span>
+                <span className="skill">Mocha</span>
+                <span className="skill">Chai</span>
+                <span className="skill">Jest</span>
+                <span className="skill">Enzyme</span>
+                <span className="skill">TDD</span>
+                <span className="skill">Agile dev</span>
+              </div>
+              <div className="curly-close" />
+            </div>
+            <div className="platforms">
+              <a className="platform-icon" href="https://github.com/hmmChase">
+                <FontAwesomeIcon icon={['fab', 'github']} />
+              </a>
 
-            <p className="skills">
-              JavaScript jQuery HTML CSS Sass Git React Router Redux Express
-              Postgres Mocha Chai Jest Enzyme Test-driven dev. Agile dev. UX/UI
-            </p>
-
-            <p />
+              <a
+                className="platform-icon"
+                href="https://www.linkedin.com/in/chase-r/"
+              >
+                <FontAwesomeIcon icon={['fab', 'linkedin']} />
+              </a>
+            </div>
           </div>
         </section>
         <section className="right">
-          <div />
+          <article className="project-container">
+            <h3 className="project-title">bitpoll</h3>
+            <img className="project-img" src={bitpoll} alt="bitpoll" />
+            <p className="project-description">
+              Bitpoll helps determine consensus within the Bitcoin development
+              community by providing polls rescricted to developers of the
+              bitcoin project.
+            </p>
+            <div className="project-link-container">
+              <a
+                className="project-link"
+                href="https://github.com/hmmChase/bitpoll"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a className="project-link" href="" target="_blank">
+                View live site
+              </a>
+            </div>
+          </article>
+          <article className="project-container">
+            <h3 className="project-title">monikers</h3>
+            <img className="project-img" src={monikers} alt="monikers" />
+            <p className="project-description">
+              A mobile version of the card game Monikers
+            </p>
+            <div className="project-link-container">
+              <a
+                className="project-link"
+                href="https://github.com/hmmChase/monikers"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                className="project-link"
+                href="https://monikers.herokuapp.com"
+                target="_blank"
+              >
+                View live site
+              </a>
+            </div>
+          </article>
         </section>
       </main>
     );
