@@ -68,6 +68,7 @@ class App extends Component {
                 className="project-link"
                 href="https://github.com/hmmChase/bitpoll"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Github
               </a>
@@ -75,6 +76,7 @@ class App extends Component {
                 className="project-link"
                 href="https://bit-poll.herokuapp.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 View live site
               </a>
@@ -91,6 +93,7 @@ class App extends Component {
                 className="project-link"
                 href="https://github.com/hmmChase/monikers"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Github
               </a>
@@ -98,6 +101,7 @@ class App extends Component {
                 className="project-link"
                 href="https://monikers.herokuapp.com"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 View live site
               </a>
