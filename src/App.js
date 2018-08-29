@@ -71,7 +71,11 @@ class App extends Component {
               >
                 Github
               </a>
-              <a className="project-link" href="" target="_blank">
+              <a
+                className="project-link"
+                href="https://bit-poll.herokuapp.com/"
+                target="_blank"
+              >
                 View live site
               </a>
             </div>
