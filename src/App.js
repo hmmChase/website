@@ -5,6 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import bitpoll from './assets/bitpoll.png';
 import monikers from './assets/monikers.png';
+import palettePicker from './assets/palette-picker.png';
 
 library.add(fab);
 
@@ -86,7 +87,7 @@ class App extends Component {
             <h3 className="project-title">monikers</h3>
             <img className="project-img" src={monikers} alt="monikers" />
             <p className="project-description">
-              A mobile version of the card game Monikers
+              A mobile version of the card game Monikers.
             </p>
             <div className="project-link-container">
               <a
@@ -100,6 +101,36 @@ class App extends Component {
               <a
                 className="project-link"
                 href="https://monikers.herokuapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View live site
+              </a>
+            </div>
+          </article>
+          <article className="project-container">
+            <h3 className="project-title">palette picker</h3>
+            <img
+              className="project-img"
+              src={palettePicker}
+              alt="palette picker"
+            />
+            <p className="project-description">
+              Palette Picker allows you to generate color schemes and save them
+              in project folders.
+            </p>
+            <div className="project-link-container">
+              <a
+                className="project-link"
+                href="https://github.com/hmmChase/palette-picker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                className="project-link"
+                href="https://hmm-palette-picker.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
