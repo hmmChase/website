@@ -79,7 +79,7 @@ class App extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View live site
+                View live
               </a>
             </div>
           </article>
@@ -104,7 +104,7 @@ class App extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View live site
+                View live
               </a>
             </div>
           </article>
@@ -134,7 +134,7 @@ class App extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View live site
+                View live
               </a>
             </div>
           </article>
