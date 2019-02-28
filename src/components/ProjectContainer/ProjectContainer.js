@@ -14,7 +14,7 @@ class ProjectContainer extends PureComponent {
         <Project
           title="IdeaBox"
           img={ideabox}
-          desc="IdeaBox is a simple Create, Read, Update, Delete (CRUD) app. It is implemented three different ways."
+          desc="IdeaBox is a simple Create, Read, Update, Delete (CRUD) app.  It is implemented three different ways."
           links={[
             {
               name: 'Vanilla JS',
@@ -36,9 +36,7 @@ class ProjectContainer extends PureComponent {
         <Project
           title="BitPoll"
           img={bitpoll}
-          desc="Bitpoll helps determine consensus within the Bitcoin development
-          community by providing polls rescricted to developers of the bitcoin
-          project."
+          desc="Bitpoll helps determine consensus within the Bitcoin development community by providing polls restricted to developers of the bitcoin project."
           links={[
             {
               gitUrl: 'https://github.com/hmmChase/bitpoll',
@@ -60,8 +58,7 @@ class ProjectContainer extends PureComponent {
         <Project
           title="Palette Picker"
           img={palettePicker}
-          desc="Palette Picker allows you to generate color schemes and save them in
-          project folders."
+          desc="Palette Picker allows you to generate color schemes and save them in project folders."
           links={[
             {
               gitUrl: 'https://github.com/hmmChase/palette-picker',
