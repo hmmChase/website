@@ -19,7 +19,7 @@ class ProjectContainer extends Component {
             {
               name: 'Vanilla JS',
               gitUrl: 'https://github.com/hmmChase/ideabox-vanilla',
-              liveUrl: 'www.test1.com'
+              liveUrl: 'https://hmmchase.github.io/ideabox-vanilla/'
             },
             {
               name: 'React / RESTful',
