@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import bitpoll from '../../assets/bitpoll.png';
 import monikers from '../../assets/monikers.png';
 import ideabox from '../../assets/ideabox.png';
@@ -7,7 +7,7 @@ import palettePicker from '../../assets/palette-picker.png';
 import './ProjectContainer.css';
 import Project from '../Project/Project';
 
-class ProjectContainer extends Component {
+class ProjectContainer extends PureComponent {
   render() {
     return (
       <div className="project-container">

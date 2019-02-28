@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import Proptypes from 'prop-types';
 import './Project.css';
 
-class Project extends Component {
+class Project extends PureComponent {
   render() {
     return (
       <article className="project">
