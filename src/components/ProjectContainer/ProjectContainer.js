@@ -76,7 +76,7 @@ class ProjectContainer extends PureComponent {
           links={[
             {
               gitUrl: 'https://github.com/hmmChase/hmmChase',
-              liveUrl: 'https://www.hmmchase.com/'
+              liveUrl: 'https://www.youtube.com/watch?v=mz6tAJMVmfM'
             }
           ]}
         />
