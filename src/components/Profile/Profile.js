@@ -7,7 +7,6 @@ class Profile extends PureComponent {
     return (
       <div className="profile">
         <h2>Web Developer</h2>
-        {/* <div className="skill-container"> */}
         <div className="skills">
           <span className="skill">JavaScript</span>
           <span className="skill">jQuery</span>
@@ -28,7 +27,6 @@ class Profile extends PureComponent {
           <span className="skill">TDD</span>
           <span className="skill">Agile dev</span>
         </div>
-        {/* </div> */}
         <div className="platforms">
           <a className="platform-icon" href="https://github.com/hmmChase">
             <FontAwesomeIcon icon={['fab', 'github']} />
