@@ -1,30 +1,25 @@
 .App {
-  display: flex;
+  background: #fcf3ca;
 }
 
 .left {
   display: flex;
   justify-content: center;
-  width: 50%;
-  background: #fcf3ca;
+  padding: 4rem 0 2rem 0;
 }
 
 .fixed {
-  position: fixed;
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  align-items: center;
 }
 
 .logo {
   width: 150px;
   height: 150px;
   border: 3px solid #ef7b7b;
-  margin: 30px auto;
+  border-radius: 50% 0 50% 50%;
   background: #c4eada;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
   -moz-transform: scale(1) rotate(-45deg) translateX(0px) translateY(0px)
     skewX(1deg) skewY(1deg);
   -webkit-transform: scale(1) rotate(-45deg) translateX(0px) translateY(0px)
@@ -54,32 +49,26 @@
     skewY(1deg);
 }
 
-
 .right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: auto;
-  width: 50%;
   background: #919190;
 }
 
-
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 700px) {
   .App {
-    flex-direction: column;
+    display: flex;
   }
 
   .left {
-    width: 100%;
-    padding-bottom: 20px;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
   }
 
   .fixed {
-    position: static;
+    position: fixed;
   }
 
   .right {
-    width: 100%;
+    width: 50%;
   }
 }
