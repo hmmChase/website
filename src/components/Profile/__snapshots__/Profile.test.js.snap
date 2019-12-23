@@ -55,7 +55,11 @@ exports[`matches snapshot 1`] = `
         <a
           class="platform-icon"
           href="https://github.com/hmmChase"
-        />
+        >
+          <i
+            class="fa fab-github undefined"
+          />
+        </a>
       </div>
       <hr
         class="split"
@@ -106,7 +110,11 @@ exports[`matches snapshot 1`] = `
         <a
           class="platform-icon"
           href="https://www.linkedin.com/in/chase-r/"
-        />
+        >
+          <i
+            class="fa fab-linkedin undefined"
+          />
+        </a>
       </div>
     </div>
   </div>
