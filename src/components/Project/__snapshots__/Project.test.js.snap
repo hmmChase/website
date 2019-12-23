@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project matches snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="project"
+  >
+    <h3
+      class="project-title"
+    />
+    <img
+      alt="screenshot"
+      class="project-img"
+    />
+    <p
+      class="project-description"
+    />
+    <div
+      class="project-link-container"
+    >
+      <div>
+        <p
+          class="project-link-name"
+        >
+          Vanilla JS
+        </p>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/ideabox-vanilla"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://hmmchase.github.io/ideabox-vanilla/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Live
+          </a>
+        </div>
+      </div>
+      <div>
+        <p
+          class="project-link-name"
+        >
+          React / RESTful
+        </p>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/ideabox-cra-rest"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://ideabox-cra-rest.herokuapp.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Live
+          </a>
+        </div>
+      </div>
+      <div>
+        <p
+          class="project-link-name"
+        >
+          SSR React / GraphQL
+        </p>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/ideabox-next-graphql"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://ideabox-next-graphql-kqv9nqmlc.now.sh/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Live
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+</DocumentFragment>
+`;
