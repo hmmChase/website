@@ -30,7 +30,7 @@ const ProjectContainer = () => (
           liveUrl: 'https://ideabox-v3.hmmchase.now.sh/'
         },
         {
-          name: 'v4. V3 + User accounts',
+          name: 'v4. v3 + user accounts',
           gitUrl: 'https://github.com/hmmChase/ideabox-v4',
           liveUrl: 'https://ideabox-v4.hmmchase.now.sh/'
         }
