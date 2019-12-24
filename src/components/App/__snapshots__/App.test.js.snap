@@ -135,6 +135,19 @@ exports[`matches snapshot 1`] = `
           </div>
         </div>
       </div>
+      <div
+        class="projects-heading"
+      >
+        <i
+          class="fa fas-level-down-alt undefined"
+        />
+        <span>
+          projects
+        </span>
+        <i
+          class="fa fas-level-down-alt undefined"
+        />
+      </div>
     </section>
     <section
       class="right"
