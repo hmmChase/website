@@ -14,7 +14,7 @@ const App = () => (
     <section className='left'>
       <div className='fixed'>
         <div className='logo'>
-          <h1>hmm... Chase</h1>
+          <h1 data-testid='logo'>hmm... Chase</h1>
         </div>
 
         <Profile />

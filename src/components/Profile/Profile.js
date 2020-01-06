@@ -42,19 +42,6 @@ const Profile = () => (
         </a>
       </div>
     </div>
-
-    {/* <div className='platforms'>
-          <a className='platform-icon' href='https://github.com/hmmChase'>
-            <FontAwesomeIcon icon={['fab', 'github']} />
-          </a>
-
-          <a
-            className='platform-icon'
-            href='https://www.linkedin.com/in/chase-r/'
-          >
-            <FontAwesomeIcon icon={['fab', 'linkedin']} />
-          </a>
-        </div> */}
   </div>
 );
 
