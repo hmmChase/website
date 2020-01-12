@@ -11,21 +11,21 @@ describe('App', () => {
   });
 
   it('matches snapshot', () => {
-    const result = render(<App />);
+    const mockProps = {};
 
-    // console.log('TCL: result', result);
+    const utils = render(<App {...mockProps} />);
 
-    console.log('TCL: result', result.debug());
+    const container = utils.container;
 
-    expect(result.asFragment()).toMatchSnapshot();
+    expect(container).toMatchSnapshot();
   });
 
   it('has a logo', () => {
-    const result = render(<App />);
+    const mockProps = {};
 
-    const logo = result.getByTestId('logo');
+    const utils = render(<App {...mockProps} />);
 
-    // console.log(prettyDOM(logo));
+    const logo = utils.getByTestId('logo');
 
     expect(logo).toHaveTextContent('hmm... Chase');
   });

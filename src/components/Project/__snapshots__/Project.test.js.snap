@@ -1,132 +1,130 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Project matches snapshot 1`] = `
-<DocumentFragment>
-  <article
-    class="project"
+<article
+  class="project"
+>
+  <h3
+    class="project-title"
+  />
+  <img
+    alt="screenshot"
+    class="project-img"
+  />
+  <p
+    class="project-description"
+  />
+  <div
+    class="project-link-container"
   >
-    <h3
-      class="project-title"
-    />
-    <img
-      alt="screenshot"
-      class="project-img"
-    />
-    <p
-      class="project-description"
-    />
-    <div
-      class="project-link-container"
-    >
-      <div>
-        <p
-          class="project-link-name"
+    <div>
+      <p
+        class="project-link-name"
+      >
+        v1. Vanilla JS
+      </p>
+      <div
+        class="project-links"
+      >
+        <a
+          class="project-link"
+          href="https://github.com/hmmChase/ideabox-v1"
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          v1. Vanilla JS
-        </p>
-        <div
-          class="project-links"
+          GitHub
+        </a>
+        <a
+          class="project-link"
+          href="https://hmmchase.github.io/ideabox-v1/"
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          <a
-            class="project-link"
-            href="https://github.com/hmmChase/ideabox-v1"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            GitHub
-          </a>
-          <a
-            class="project-link"
-            href="https://hmmchase.github.io/ideabox-v1/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            View Live
-          </a>
-        </div>
-      </div>
-      <div>
-        <p
-          class="project-link-name"
-        >
-          v2. React / RESTful
-        </p>
-        <div
-          class="project-links"
-        >
-          <a
-            class="project-link"
-            href="https://github.com/hmmChase/ideabox-v2"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            GitHub
-          </a>
-          <a
-            class="project-link"
-            href="https://ideabox-cra-rest.herokuapp.com/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            View Live
-          </a>
-        </div>
-      </div>
-      <div>
-        <p
-          class="project-link-name"
-        >
-          v3. SSR React / GraphQL
-        </p>
-        <div
-          class="project-links"
-        >
-          <a
-            class="project-link"
-            href="https://github.com/hmmChase/ideabox-v3"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            GitHub
-          </a>
-          <a
-            class="project-link"
-            href="https://ideabox-v3.hmmchase.now.sh/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            View Live
-          </a>
-        </div>
-      </div>
-      <div>
-        <p
-          class="project-link-name"
-        >
-          v4. v3 + user accounts
-        </p>
-        <div
-          class="project-links"
-        >
-          <a
-            class="project-link"
-            href="https://github.com/hmmChase/ideabox-v4"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            GitHub
-          </a>
-          <a
-            class="project-link"
-            href="https://ideabox-v4.hmmchase.now.sh/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            View Live
-          </a>
-        </div>
+          View Live
+        </a>
       </div>
     </div>
-  </article>
-</DocumentFragment>
+    <div>
+      <p
+        class="project-link-name"
+      >
+        v2. React / RESTful
+      </p>
+      <div
+        class="project-links"
+      >
+        <a
+          class="project-link"
+          href="https://github.com/hmmChase/ideabox-v2"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        <a
+          class="project-link"
+          href="https://ideabox-cra-rest.herokuapp.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          View Live
+        </a>
+      </div>
+    </div>
+    <div>
+      <p
+        class="project-link-name"
+      >
+        v3. SSR React / GraphQL
+      </p>
+      <div
+        class="project-links"
+      >
+        <a
+          class="project-link"
+          href="https://github.com/hmmChase/ideabox-v3"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        <a
+          class="project-link"
+          href="https://ideabox-v3.hmmchase.now.sh/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          View Live
+        </a>
+      </div>
+    </div>
+    <div>
+      <p
+        class="project-link-name"
+      >
+        v4. v3 + user accounts
+      </p>
+      <div
+        class="project-links"
+      >
+        <a
+          class="project-link"
+          href="https://github.com/hmmChase/ideabox-v4"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        <a
+          class="project-link"
+          href="https://ideabox-v4.hmmchase.now.sh/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          View Live
+        </a>
+      </div>
+    </div>
+  </div>
+</article>
 `;

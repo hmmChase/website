@@ -1,321 +1,319 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`matches snapshot 1`] = `
-<DocumentFragment>
-  <div
-    class="project-container"
+exports[`ProjectContainer matches snapshot 1`] = `
+<div
+  class="project-container"
+>
+  <article
+    class="project"
   >
-    <article
-      class="project"
+    <h3
+      class="project-title"
     >
-      <h3
-        class="project-title"
-      >
-        IdeaBox
-      </h3>
-      <img
-        alt="screenshot"
-        class="project-img"
-        src="ideabox.png"
-      />
-      <p
-        class="project-description"
-      >
-        IdeaBox is a simple Create, Read, Update, Delete (CRUD) app.  It is implemented three different ways.
-      </p>
-      <div
-        class="project-link-container"
-      >
-        <div>
-          <p
-            class="project-link-name"
+      IdeaBox
+    </h3>
+    <img
+      alt="screenshot"
+      class="project-img"
+      src="ideabox.png"
+    />
+    <p
+      class="project-description"
+    >
+      IdeaBox is a simple Create, Read, Update, Delete (CRUD) app.  It is implemented three different ways.
+    </p>
+    <div
+      class="project-link-container"
+    >
+      <div>
+        <p
+          class="project-link-name"
+        >
+          v1. Vanilla JS
+        </p>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/ideabox-v1"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            v1. Vanilla JS
-          </p>
-          <div
-            class="project-links"
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://hmmchase.github.io/ideabox-v1/"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <a
-              class="project-link"
-              href="https://github.com/hmmChase/ideabox-v1"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-            <a
-              class="project-link"
-              href="https://hmmchase.github.io/ideabox-v1/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              View Live
-            </a>
-          </div>
-        </div>
-        <div>
-          <p
-            class="project-link-name"
-          >
-            v2. React / RESTful
-          </p>
-          <div
-            class="project-links"
-          >
-            <a
-              class="project-link"
-              href="https://github.com/hmmChase/ideabox-v2"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-            <a
-              class="project-link"
-              href="https://ideabox-cra-rest.herokuapp.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              View Live
-            </a>
-          </div>
-        </div>
-        <div>
-          <p
-            class="project-link-name"
-          >
-            v3. SSR React / GraphQL
-          </p>
-          <div
-            class="project-links"
-          >
-            <a
-              class="project-link"
-              href="https://github.com/hmmChase/ideabox-v3"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-            <a
-              class="project-link"
-              href="https://ideabox-v3.hmmchase.now.sh/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              View Live
-            </a>
-          </div>
-        </div>
-        <div>
-          <p
-            class="project-link-name"
-          >
-            v4. v3 + user accounts
-          </p>
-          <div
-            class="project-links"
-          >
-            <a
-              class="project-link"
-              href="https://github.com/hmmChase/ideabox-v4"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-            <a
-              class="project-link"
-              href="https://ideabox-v4.hmmchase.now.sh/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              View Live
-            </a>
-          </div>
+            View Live
+          </a>
         </div>
       </div>
-    </article>
-    <article
-      class="project"
-    >
-      <h3
-        class="project-title"
-      >
-        BitPoll
-      </h3>
-      <img
-        alt="screenshot"
-        class="project-img"
-        src="bitpoll.png"
-      />
-      <p
-        class="project-description"
-      >
-        Bitpoll helps determine consensus within the Bitcoin development community by providing polls restricted to developers of the bitcoin project.
-      </p>
-      <div
-        class="project-link-container"
-      >
-        <div>
-          <div
-            class="project-links"
+      <div>
+        <p
+          class="project-link-name"
+        >
+          v2. React / RESTful
+        </p>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/ideabox-v2"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <a
-              class="project-link"
-              href="https://github.com/hmmChase/bitpoll"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-            <a
-              class="project-link"
-              href="https://bit-poll.herokuapp.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              View Live
-            </a>
-          </div>
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://ideabox-cra-rest.herokuapp.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Live
+          </a>
         </div>
       </div>
-    </article>
-    <article
-      class="project"
-    >
-      <h3
-        class="project-title"
-      >
-        Monikers
-      </h3>
-      <img
-        alt="screenshot"
-        class="project-img"
-        src="monikers.png"
-      />
-      <p
-        class="project-description"
-      >
-        A mobile version of the card game Monikers.
-      </p>
-      <div
-        class="project-link-container"
-      >
-        <div>
-          <div
-            class="project-links"
+      <div>
+        <p
+          class="project-link-name"
+        >
+          v3. SSR React / GraphQL
+        </p>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/ideabox-v3"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <a
-              class="project-link"
-              href="https://github.com/hmmChase/monikers"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-            <a
-              class="project-link"
-              href="https://monikers.herokuapp.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              View Live
-            </a>
-          </div>
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://ideabox-v3.hmmchase.now.sh/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Live
+          </a>
         </div>
       </div>
-    </article>
-    <article
-      class="project"
-    >
-      <h3
-        class="project-title"
-      >
-        Palette Picker
-      </h3>
-      <img
-        alt="screenshot"
-        class="project-img"
-        src="palette-picker.png"
-      />
-      <p
-        class="project-description"
-      >
-        Palette Picker allows you to generate color schemes and save them in project folders.
-      </p>
-      <div
-        class="project-link-container"
-      >
-        <div>
-          <div
-            class="project-links"
+      <div>
+        <p
+          class="project-link-name"
+        >
+          v4. v3 + user accounts
+        </p>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/ideabox-v4"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <a
-              class="project-link"
-              href="https://github.com/hmmChase/palette-picker"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-            <a
-              class="project-link"
-              href="https://hmm-palette-picker.herokuapp.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              View Live
-            </a>
-          </div>
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://ideabox-v4.hmmchase.now.sh/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Live
+          </a>
         </div>
       </div>
-    </article>
-    <article
-      class="project"
+    </div>
+  </article>
+  <article
+    class="project"
+  >
+    <h3
+      class="project-title"
     >
-      <h3
-        class="project-title"
-      >
-        hmm... Chase
-      </h3>
-      <img
-        alt="screenshot"
-        class="project-img"
-        src="hmmchase.png"
-      />
-      <p
-        class="project-description"
-      >
-        You are here.
-      </p>
-      <div
-        class="project-link-container"
-      >
-        <div>
-          <div
-            class="project-links"
+      BitPoll
+    </h3>
+    <img
+      alt="screenshot"
+      class="project-img"
+      src="bitpoll.png"
+    />
+    <p
+      class="project-description"
+    >
+      Bitpoll helps determine consensus within the Bitcoin development community by providing polls restricted to developers of the bitcoin project.
+    </p>
+    <div
+      class="project-link-container"
+    >
+      <div>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/bitpoll"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <a
-              class="project-link"
-              href="https://github.com/hmmChase/hmmChase"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-            <a
-              class="project-link"
-              href="https://www.youtube.com/watch?v=mz6tAJMVmfM"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              View Live
-            </a>
-          </div>
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://bit-poll.herokuapp.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Live
+          </a>
         </div>
       </div>
-    </article>
-  </div>
-</DocumentFragment>
+    </div>
+  </article>
+  <article
+    class="project"
+  >
+    <h3
+      class="project-title"
+    >
+      Monikers
+    </h3>
+    <img
+      alt="screenshot"
+      class="project-img"
+      src="monikers.png"
+    />
+    <p
+      class="project-description"
+    >
+      A mobile version of the card game Monikers.
+    </p>
+    <div
+      class="project-link-container"
+    >
+      <div>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/monikers"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://monikers.herokuapp.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Live
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article
+    class="project"
+  >
+    <h3
+      class="project-title"
+    >
+      Palette Picker
+    </h3>
+    <img
+      alt="screenshot"
+      class="project-img"
+      src="palette-picker.png"
+    />
+    <p
+      class="project-description"
+    >
+      Palette Picker allows you to generate color schemes and save them in project folders.
+    </p>
+    <div
+      class="project-link-container"
+    >
+      <div>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/palette-picker"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://hmm-palette-picker.herokuapp.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Live
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article
+    class="project"
+  >
+    <h3
+      class="project-title"
+    >
+      hmm... Chase
+    </h3>
+    <img
+      alt="screenshot"
+      class="project-img"
+      src="hmmchase.png"
+    />
+    <p
+      class="project-description"
+    >
+      You are here.
+    </p>
+    <div
+      class="project-link-container"
+    >
+      <div>
+        <div
+          class="project-links"
+        >
+          <a
+            class="project-link"
+            href="https://github.com/hmmChase/hmmChase"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          <a
+            class="project-link"
+            href="https://www.youtube.com/watch?v=mz6tAJMVmfM"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Live
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
 `;

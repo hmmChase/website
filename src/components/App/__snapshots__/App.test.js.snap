@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App matches snapshot 1`] = `
-<DocumentFragment>
+<div>
   <main
     class="App"
   >
@@ -20,120 +20,118 @@ exports[`App matches snapshot 1`] = `
             hmm... Chase
           </h1>
         </div>
-        <div>
-          <h2>
-            Web Developer
-          </h2>
+        <h2>
+          Web Developer
+        </h2>
+        <div
+          class="skills"
+        >
           <div
-            class="skills"
+            class="skills-left"
           >
-            <div
-              class="skills-left"
+            <span
+              class="skill"
             >
-              <span
-                class="skill"
-              >
-                JavaScript
-              </span>
-              <span
-                class="skill"
-              >
-                jQuery
-              </span>
-              <span
-                class="skill"
-              >
-                HTML
-              </span>
-              <span
-                class="skill"
-              >
-                CSS/SCSS
-              </span>
-              <span
-                class="skill"
-              >
-                Git
-              </span>
-              <span
-                class="skill"
-              >
-                React
-              </span>
-              <span
-                class="skill"
-              >
-                Router
-              </span>
-              <span
-                class="skill"
-              >
-                Redux
-              </span>
-              <a
-                class="platform-icon"
-                href="https://github.com/hmmChase"
-              >
-                <i
-                  class="fa fab-github undefined"
-                />
-              </a>
-            </div>
-            <hr
-              class="split"
-            />
-            <div
-              class="skills-right"
+              JavaScript
+            </span>
+            <span
+              class="skill"
             >
-              <span
-                class="skill"
-              >
-                NextJS
-              </span>
-              <span
-                class="skill"
-              >
-                Express
-              </span>
-              <span
-                class="skill"
-              >
-                GraphQL
-              </span>
-              <span
-                class="skill"
-              >
-                Postgres
-              </span>
-              <span
-                class="skill"
-              >
-                Mocha
-              </span>
-              <span
-                class="skill"
-              >
-                Chai
-              </span>
-              <span
-                class="skill"
-              >
-                Jest
-              </span>
-              <span
-                class="skill"
-              >
-                Enzyme
-              </span>
-              <a
-                class="platform-icon"
-                href="https://www.linkedin.com/in/chase-r/"
-              >
-                <i
-                  class="fa fab-linkedin undefined"
-                />
-              </a>
-            </div>
+              jQuery
+            </span>
+            <span
+              class="skill"
+            >
+              HTML
+            </span>
+            <span
+              class="skill"
+            >
+              CSS/SCSS
+            </span>
+            <span
+              class="skill"
+            >
+              Git
+            </span>
+            <span
+              class="skill"
+            >
+              React
+            </span>
+            <span
+              class="skill"
+            >
+              Router
+            </span>
+            <span
+              class="skill"
+            >
+              Redux
+            </span>
+            <a
+              class="platform-icon"
+              href="https://github.com/hmmChase"
+            >
+              <i
+                class="fa-undefined"
+              />
+            </a>
+          </div>
+          <hr
+            class="split"
+          />
+          <div
+            class="skills-right"
+          >
+            <span
+              class="skill"
+            >
+              NextJS
+            </span>
+            <span
+              class="skill"
+            >
+              NodeJS
+            </span>
+            <span
+              class="skill"
+            >
+              Express
+            </span>
+            <span
+              class="skill"
+            >
+              GraphQL
+            </span>
+            <span
+              class="skill"
+            >
+              Postgres
+            </span>
+            <span
+              class="skill"
+            >
+              Jest
+            </span>
+            <span
+              class="skill"
+            >
+              Mocha/Chai
+            </span>
+            <span
+              class="skill"
+            >
+              Enzyme/RTL
+            </span>
+            <a
+              class="platform-icon"
+              href="https://www.linkedin.com/in/chase-r/"
+            >
+              <i
+                class="fa-undefined"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -141,13 +139,13 @@ exports[`App matches snapshot 1`] = `
         class="projects-heading"
       >
         <i
-          class="fa fas-level-down-alt undefined"
+          class="fa-undefined"
         />
         <span>
           projects
         </span>
         <i
-          class="fa fas-level-down-alt undefined"
+          class="fa-undefined"
         />
       </div>
     </section>
@@ -471,5 +469,5 @@ exports[`App matches snapshot 1`] = `
       </div>
     </section>
   </main>
-</DocumentFragment>
+</div>
 `;

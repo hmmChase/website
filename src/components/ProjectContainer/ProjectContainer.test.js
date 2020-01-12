@@ -3,8 +3,14 @@ import '@testing-library/jest-dom/extend-expect';
 import { render } from '@testing-library/react';
 import ProjectContainer from './ProjectContainer';
 
-it('matches snapshot', () => {
-  const result = render(<ProjectContainer />);
+describe('ProjectContainer', () => {
+  it('matches snapshot', () => {
+    const mockProps = {};
 
-  expect(result.asFragment()).toMatchSnapshot();
+    const utils = render(<ProjectContainer {...mockProps} />);
+
+    const container = utils.container.firstChild;
+
+    expect(container).toMatchSnapshot();
+  });
 });

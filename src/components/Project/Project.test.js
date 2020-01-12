@@ -4,10 +4,8 @@ import { render } from '@testing-library/react';
 import Project from './Project';
 
 describe('Project', () => {
-  let mockProps;
-
-  beforeEach(() => {
-    mockProps = {
+  it('matches snapshot', () => {
+    const mockProps = {
       links: [
         {
           name: 'v1. Vanilla JS',
@@ -31,11 +29,11 @@ describe('Project', () => {
         }
       ]
     };
-  });
 
-  it('matches snapshot', () => {
-    const result = render(<Project {...mockProps} />);
+    const utils = render(<Project {...mockProps} />);
 
-    expect(result.asFragment()).toMatchSnapshot();
+    const container = utils.container.firstChild;
+
+    expect(container).toMatchSnapshot();
   });
 });

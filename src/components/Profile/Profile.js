@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Profile.css';
 
 const Profile = () => (
-  <div>
+  <>
     <h2>Web Developer</h2>
 
     <div className='skills'>
@@ -42,7 +42,7 @@ const Profile = () => (
         </a>
       </div>
     </div>
-  </div>
+  </>
 );
 
 export default Profile;
