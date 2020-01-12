@@ -26,13 +26,13 @@ const Profile = () => (
 
       <div className='skills-right'>
         <span className='skill'>NextJS</span>
+        <span className='skill'>NodeJS</span>
         <span className='skill'>Express</span>
         <span className='skill'>GraphQL</span>
         <span className='skill'>Postgres</span>
-        <span className='skill'>Mocha</span>
-        <span className='skill'>Chai</span>
         <span className='skill'>Jest</span>
-        <span className='skill'>Enzyme</span>
+        <span className='skill'>Mocha/Chai</span>
+        <span className='skill'>Enzyme/RTL</span>
 
         <a
           className='platform-icon'
