@@ -22,15 +22,15 @@ const App = () => (
 
       <div className='projects-heading'>
         <FontAwesomeIcon
-          className='levelDown'
+          className='level-down'
           icon={['fas', 'level-down-alt']}
           flip='horizontal'
         />
 
-        <span className='projects-label'>projects</span>
+        <span>projects</span>
 
         <FontAwesomeIcon
-          className='levelDown'
+          className='level-down'
           icon={['fas', 'level-down-alt']}
         />
       </div>
