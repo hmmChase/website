@@ -17,7 +17,10 @@ const Profile = () => (
         <span className='skill'>Router</span>
         <span className='skill'>Redux</span>
 
-        <a className='platform-icon' href='https://github.com/hmmChase'>
+        <a
+          className='platform-icon align-right'
+          href='https://github.com/hmmChase'
+        >
           <FontAwesomeIcon icon={['fab', 'github']} />
         </a>
       </div>

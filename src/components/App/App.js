@@ -27,7 +27,7 @@ const App = () => (
           flip='horizontal'
         />
 
-        <span>projects</span>
+        <span className='projects-label'>projects</span>
 
         <FontAwesomeIcon
           className='levelDown'

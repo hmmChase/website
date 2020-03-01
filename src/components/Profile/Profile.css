@@ -44,10 +44,16 @@
 } */
 
 .platform-icon {
+  align-self: flex-start;
   margin: 20px 10px 0 10px;
   font-size: 3rem;
+  color: #37427f;
 }
 
-.platform-icon:visited {
-  color: #000;
+.platform-icon.align-right {
+  align-self: flex-end;
+}
+
+.platform-icon:hover {
+  color: #ef7b7b;
 }
