@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@hmmui/hmmchase';
 import './Project.css';
 
 const Project = props => (
@@ -14,23 +15,21 @@ const Project = props => (
         <div key={i}>
           {link.name && <p className='project-link-name'>{link.name}</p>}
           <div className='project-links'>
-            <a
-              className='project-link'
+            <Button
               href={link.gitUrl}
               target='_blank'
               rel='noopener noreferrer'
             >
               GitHub
-            </a>
+            </Button>
 
-            <a
-              className='project-link'
+            <Button
               href={link.liveUrl}
               target='_blank'
               rel='noopener noreferrer'
             >
               View Live
-            </a>
+            </Button>
           </div>
         </div>
       ))}
