@@ -1,8 +1,9 @@
 import React from 'react';
-import { Button } from '@hmmui/hmmchase';
+import PropTypes from 'prop-types';
+import { ProjectLink } from '@hmmui/hmmchase';
 import './Project.css';
 
-const Project = props => (
+const Project = (props) => (
   <article className='project'>
     <h3 className='project-title'>{props.title}</h3>
 
@@ -15,26 +16,27 @@ const Project = props => (
         <div key={i}>
           {link.name && <p className='project-link-name'>{link.name}</p>}
           <div className='project-links'>
-            <Button
-              href={link.gitUrl}
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              GitHub
-            </Button>
+            <ProjectLink href={link.gitUrl}>GitHub</ProjectLink>
 
-            <Button
-              href={link.liveUrl}
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              View Live
-            </Button>
+            <ProjectLink href={link.liveUrl}>View Live</ProjectLink>
           </div>
         </div>
       ))}
     </div>
   </article>
 );
+
+Project.propTypes = {
+  desc: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+  links: PropTypes.arrayOf(
+    PropTypes.exact({
+      name: PropTypes.string,
+      gitUrl: PropTypes.string.isRequired,
+      liveUrl: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  title: PropTypes.string.isRequired,
+};
 
 export default React.memo(Project);

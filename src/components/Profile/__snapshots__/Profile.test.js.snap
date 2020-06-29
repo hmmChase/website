@@ -52,7 +52,7 @@ exports[`Profile matches snapshot 1`] = `
         Redux
       </span>
       <a
-        class="platform-icon"
+        class="platform-icon align-right"
         href="https://github.com/hmmChase"
       >
         <i

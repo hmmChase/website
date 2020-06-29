@@ -6,14 +6,19 @@ exports[`Project matches snapshot 1`] = `
 >
   <h3
     class="project-title"
-  />
+  >
+    mock title
+  </h3>
   <img
     alt="screenshot"
     class="project-img"
+    src="mock image url"
   />
   <p
     class="project-description"
-  />
+  >
+    mock description
+  </p>
   <div
     class="project-link-container"
   >

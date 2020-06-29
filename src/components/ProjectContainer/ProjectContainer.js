@@ -17,23 +17,23 @@ const ProjectContainer = () => (
         {
           name: 'v1. Vanilla JS',
           gitUrl: 'https://github.com/hmmChase/ideabox-v1',
-          liveUrl: 'https://hmmchase.github.io/ideabox-v1/'
+          liveUrl: 'https://hmmchase.github.io/ideabox-v1/',
         },
         {
           name: 'v2. React / RESTful',
           gitUrl: 'https://github.com/hmmChase/ideabox-v2',
-          liveUrl: 'https://ideabox-cra-rest.herokuapp.com/'
+          liveUrl: 'https://ideabox-cra-rest.herokuapp.com/',
         },
         {
           name: 'v3. SSR React / GraphQL',
           gitUrl: 'https://github.com/hmmChase/ideabox-v3',
-          liveUrl: 'https://ideabox-v3.hmmchase.now.sh/'
+          liveUrl: 'https://ideabox-v3.hmmchase.now.sh/',
         },
         {
           name: 'v4. v3 + user accounts',
           gitUrl: 'https://github.com/hmmChase/ideabox-v4',
-          liveUrl: 'https://ideabox-v4.hmmchase.now.sh/'
-        }
+          liveUrl: 'https://ideabox-v4.hmmchase.now.sh/',
+        },
       ]}
     />
 
@@ -44,8 +44,8 @@ const ProjectContainer = () => (
       links={[
         {
           gitUrl: 'https://github.com/hmmChase/bitpoll',
-          liveUrl: 'https://bit-poll.herokuapp.com/'
-        }
+          liveUrl: 'https://bit-poll.herokuapp.com/',
+        },
       ]}
     />
 
@@ -56,8 +56,8 @@ const ProjectContainer = () => (
       links={[
         {
           gitUrl: 'https://github.com/hmmChase/monikers',
-          liveUrl: 'https://monikers.herokuapp.com'
-        }
+          liveUrl: 'https://monikers.herokuapp.com',
+        },
       ]}
     />
 
@@ -68,8 +68,8 @@ const ProjectContainer = () => (
       links={[
         {
           gitUrl: 'https://github.com/hmmChase/palette-picker',
-          liveUrl: 'https://hmm-palette-picker.herokuapp.com/'
-        }
+          liveUrl: 'https://hmm-palette-picker.herokuapp.com/',
+        },
       ]}
     />
 
@@ -80,8 +80,8 @@ const ProjectContainer = () => (
       links={[
         {
           gitUrl: 'https://github.com/hmmChase/hmmChase',
-          liveUrl: 'https://www.youtube.com/watch?v=mz6tAJMVmfM'
-        }
+          liveUrl: 'https://www.youtube.com/watch?v=mz6tAJMVmfM',
+        },
       ]}
     />
   </div>
