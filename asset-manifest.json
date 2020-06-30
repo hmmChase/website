@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.41873c96.chunk.css",
-    "main.js": "/static/js/main.f8fcb5bb.chunk.js",
-    "main.js.map": "/static/js/main.f8fcb5bb.chunk.js.map",
+    "main.css": "/static/css/main.0d3811b0.chunk.css",
+    "main.js": "/static/js/main.c958edf7.chunk.js",
+    "main.js.map": "/static/js/main.c958edf7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3d2263e7.js",
     "runtime-main.js.map": "/static/js/runtime-main.3d2263e7.js.map",
     "static/css/2.764ccc25.chunk.css": "/static/css/2.764ccc25.chunk.css",
-    "static/js/2.dc7e6211.chunk.js": "/static/js/2.dc7e6211.chunk.js",
-    "static/js/2.dc7e6211.chunk.js.map": "/static/js/2.dc7e6211.chunk.js.map",
+    "static/js/2.aa70aa51.chunk.js": "/static/js/2.aa70aa51.chunk.js",
+    "static/js/2.aa70aa51.chunk.js.map": "/static/js/2.aa70aa51.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cdaf2e04980214856c4102f5872dbfa8.js": "/precache-manifest.cdaf2e04980214856c4102f5872dbfa8.js",
+    "precache-manifest.38a82bcb487d1ce32122413b71f88491.js": "/precache-manifest.38a82bcb487d1ce32122413b71f88491.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.41873c96.chunk.css.map": "/static/css/main.41873c96.chunk.css.map",
-    "static/js/2.dc7e6211.chunk.js.LICENSE.txt": "/static/js/2.dc7e6211.chunk.js.LICENSE.txt",
+    "static/css/main.0d3811b0.chunk.css.map": "/static/css/main.0d3811b0.chunk.css.map",
+    "static/js/2.aa70aa51.chunk.js.LICENSE.txt": "/static/js/2.aa70aa51.chunk.js.LICENSE.txt",
     "static/media/bitpoll.png": "/static/media/bitpoll.4460295e.png",
     "static/media/hmmchase.png": "/static/media/hmmchase.4d84714c.png",
     "static/media/ideabox.png": "/static/media/ideabox.0ec5ceec.png",
     "static/media/monikers.png": "/static/media/monikers.80e161b6.png",
-    "static/media/palette-picker.png": "/static/media/palette-picker.b4b8d9c4.png"
+    "static/media/palette-picker.png": "/static/media/palette-picker.b4b8d9c4.png",
+    "static/media/random-quotes.png": "/static/media/random-quotes.420e41d9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3d2263e7.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.dc7e6211.chunk.js",
-    "static/css/main.41873c96.chunk.css",
-    "static/js/main.f8fcb5bb.chunk.js"
+    "static/js/2.aa70aa51.chunk.js",
+    "static/css/main.0d3811b0.chunk.css",
+    "static/js/main.c958edf7.chunk.js"
   ]
 }
