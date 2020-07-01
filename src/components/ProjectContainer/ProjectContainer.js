@@ -5,6 +5,9 @@ import ideabox from '../../assets/ideabox.png';
 import hmmchase from '../../assets/hmmchase.png';
 import palettePicker from '../../assets/palette-picker.png';
 import randomQuotes from '../../assets/random-quotes.png';
+import compChallenge1 from '../../assets/cr-comp-challenge-1.png';
+import compChallenge2 from '../../assets/cr-comp-challenge-2.png';
+import compChallenge3 from '../../assets/cr-comp-challenge-3.png';
 import Project from '../Project/Project';
 import './ProjectContainer.css';
 
@@ -75,26 +78,26 @@ const ProjectContainer = () => (
     />
 
     <Project
-      title='Comp Challenges'
-      img={
-        'https://github.com/hmmChase/cr-comp-challenge-1/blob/master/images/Recreated%20Comp.png'
-      }
-      desc='Create a responsive layout based on a static comp'
+      title='Design Comp Challenges'
+      desc='Responsive layouts created from design comprehensives'
       links={[
         {
           name: 'Challenge 1',
           gitUrl: 'https://github.com/hmmChase/cr-comp-challenge-1/',
           liveUrl: 'https://hmmchase.github.io/cr-comp-challenge-1/',
+          img: compChallenge1,
         },
         {
           name: 'Challenge 2',
           gitUrl: 'https://github.com/hmmChase/cr-comp-challenge-2/',
           liveUrl: 'https://hmmchase.github.io/cr-comp-challenge-2/',
+          img: compChallenge2,
         },
         {
           name: 'Challenge 3',
           gitUrl: 'https://github.com/hmmChase/cr-comp-challenge-3/',
           liveUrl: 'https://hmmchase.github.io/cr-comp-challenge-3/',
+          img: compChallenge3,
         },
       ]}
     />

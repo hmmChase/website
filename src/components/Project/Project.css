@@ -20,15 +20,24 @@
   border-bottom: 1px solid darkgray;
 }
 
+.project-imgs {
+  border: 1px solid darkgray;
+  margin-bottom: 1rem;
+}
+
 .project-description {
   padding: 0 20px;
   margin: 20px 0 0 0;
 }
 
-.project-link-container {
+.project-links-container {
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+.project-link-item {
+  margin-bottom: 1rem;
 }
 
 .project-links {
@@ -40,4 +49,3 @@
   margin: 20px 0 10px 0;
   font-weight: 600;
 }
-
